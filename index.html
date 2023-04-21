@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sergey Kuzin. Portfolio. Junior front-end developer</title>
+    <meta name="description" content="Sergey Kuzin. Portfolio. Junior front-end developer">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container page-header__inner"><a class="logo" href="/">Sergey<br> Kuzin </a>
+        <button class="menu-toggle" type="button">Open menu
+          <svg class="menu-toggle-icon" enable-background="new 0 0 20 20" version="1.1" viewbox="0 0 20 20" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="4" height="4"></rect>
+            <rect x="8" y="8" width="4" height="4"></rect>
+            <rect x="16" y="8" width="4" height="4"></rect>
+            <rect x="0" y="8" width="4" height="4"></rect>
+            <rect x="8" y="16" width="4" height="4"></rect>
+            <rect x="8" y="0" width="4" height="4"></rect>
+            <rect x="0" y="16" width="4" height="4"></rect>
+            <rect x="16" y="16" width="4" height="4"></rect>
+            <rect x="16" y="0" width="4" height="4"></rect>
+          </svg>
+        </button>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link" href="https://github.com/sergeykuzin" target="_blank">Github</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="https://www.linkedin.com/in/sergey-kuzin-255b32193/" target="_blank">LinkedIn</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="https://www.codewars.com/users/sergeyKuzin/" target="_blank">Codewars </a></li>
+          </ul>
+        </nav>
+        <button class="change-theme-button" type="button">Change theme
+          <svg class="bulb-icon" version="1.1" viewbox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+            <g class="bulb-icon__beams">
+              <line x1="20.8" y1="9.2" x2="23" y2="9.2"></line>
+              <line x1="19.8" y1="13.1" x2="21.4" y2="14.2"></line>
+              <line x1="19.8" y1="4.8" x2="21.4" y2="3.9"></line>
+              <line x1="3.2" y1="9.2" x2="1" y2="9.2"></line>
+              <line x1="4.2" y1="13.1" x2="2.7" y2="14.2"></line>
+              <line x1="4.3" y1="4.8" x2="2.8" y2="3.9"></line>
+            </g>
+            <g>
+              <line class="bulb-icon__outline" x1="9.8" y1="17" x2="14.2" y2="17"></line>
+              <line class="bulb-icon__outline" x1="12" y1="19.1" x2="12" y2="20.2"></line>
+              <polyline class="bulb-icon__outline light-stick" points="12,14.8 12,10.4 13.6,8.7"></polyline>
+              <line class="bulb-icon__outline bulb-icon__light-stick" x1="12" y1="10.4" x2="10.4" y2="8.7"></line>
+              <rect class="bulb-icon__outline" x="9.8" y="14.8" width="4.4" height="4.4"></rect>
+              <polyline class="bulb-icon__outline" points="9.8,14.8 6.5,13 6.5,6.6 12,3.8 17.5,6.6 17.5,13 14.2,14.8"></polyline>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero__content">
+          <h1 class="hero__title underline">Frontend developer</h1>
+          <p class="hero__description">
+            Hello! My name is Sergey Kuzin! I am a frontend developer.
+            I practice and improve my skills, as well as gain deeper knowledge
+            in the field of frontend and computer science. On this page you
+            will find my skills, examples of work and contact information.
+          </p>
+          <button class="button primary-button" type="submit" onclick="window.open('resume/sergey-kuzin.pdf')">Open resume</button>
+        </div>
+        <div class="experience">
+          <p class="experience__title">I have experience with the following technologies:</p>
+          <ul class="experience__list">
+            <li class="experience__item">HTML, PUG</li>
+            <li class="experience__item">CSS, SCSS</li>
+            <li class="experience__item">JavaScript, ES6+</li>
+            <li class="experience__item">Browser API </li>
+            <li class="experience__item">NPM, GULP</li>
+            <li class="experience__item">Photoshop, Figma</li>
+          </ul>
+        </div>
+      </section>
+      <section class="my-works" id="my-works">
+        <div class="container">
+          <h2 class="my-works__title"><span>My works</span></h2>
+          <ul class="my-works__list">
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/artactive.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/artactive-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/artactive.jpg" media="(min-width: 375px)"><img src="img/my-works/artactive.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/artactive/index.html" target="_blank" title="Go to website">ArtActive</a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">PUG, SCSS, ES6+, Gulp</li>
+                  <li class="my-works__implementation-item">Yandex maps, lazyload (IntersectionObserverAPI)</li>
+                  <li class="my-works__implementation-item">Swiper-slider </li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/artactive/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/artActive-portfolio-" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/sparta.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/sparta-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/sparta.jpg" media="(min-width: 375px)"><img src="img/my-works/sparta.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/sparta/index.html" target="_blank" title="Go to website">Sparta </a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">PUG, SCSS, ES6+, Gulp</li>
+                  <li class="my-works__implementation-item">Youtube API, lazyload (IntersectionObserverAPI)</li>
+                  <li class="my-works__implementation-item">Swiper-slider </li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/sparta/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/sparta---portfolio" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/sedona.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/sedona-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/sedona.jpg" media="(min-width: 375px)"><img src="img/my-works/sedona.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank" title="Go to website">Sedona</a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">PUG, SCSS, ES6+, Gulp</li>
+                  <li class="my-works__implementation-item">HTML5 video API, Google Maps Api</li>
+                  <li class="my-works__implementation-item">Responsive image via html tag &lt;picture&gt;</li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/sedona---portfolio" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/multi-step-form.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/multi-step-form-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/multi-step-form.jpg" media="(min-width: 375px)"><img src="img/my-works/multi-step-form.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank" title="Go to website">Multi-step form</a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">React, Redux, RTL, TS</li>
+                  <li class="my-works__implementation-item">Webpack</li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/sedona---portfolio" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/klava.org.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/klava.org-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/klava.org.jpg" media="(min-width: 375px)"><img src="img/my-works/klava.org.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank" title="Go to website">Klava.org</a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">React, Redux, RTL, TS</li>
+                  <li class="my-works__implementation-item">Webpack</li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/sedona---portfolio" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/hacker-news.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/hacker-news-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/hacker-news.jpg" media="(min-width: 375px)"><img src="img/my-works/hacker-news.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank" title="Go to website">Hacker News</a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">React, Redux, RTL, TS</li>
+                  <li class="my-works__implementation-item">Webpack, axios, semantic-ui</li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/sedona---portfolio" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/canban.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/canban-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/canban.jpg" media="(min-width: 375px)"><img src="img/my-works/canban.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank" title="Go to website">Canban</a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">React, Redux, RTL, TS</li>
+                  <li class="my-works__implementation-item">Webpack, axios, semantic-ui</li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/sedona---portfolio" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/forecast.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/forecast-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/forecast.jpg" media="(min-width: 375px)"><img src="img/my-works/forecast.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank" title="Go to website">Forecast</a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">React, Redux, RTL, TS</li>
+                  <li class="my-works__implementation-item">Webpack, axios, semantic-ui</li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/sedona---portfolio" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+            <li class="my-works__item">
+              <picture class="my-works__image">
+                <source type="image/webp" srcset="img/webp/my-works/millenium.webp" media="(min-width: 375px)">
+                <source type="image/webp" srcset="img/webp/my-works/millenium-mobile.webp">
+                <source type="image/webp" srcset="img/my-works/millenium.jpg" media="(min-width: 375px)"><img src="img/my-works/millenium.jpg" alt="Preview of my work">
+              </picture>
+              <div class="my-works__description-wrapper"><a class="my-works__project-title hover-underline" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank" title="Go to website">Millenium</a>
+                <ul class="my-works__implementation-list">
+                  <li class="my-works__implementation-item">React, Redux, RTL, TS</li>
+                  <li class="my-works__implementation-item">Webpack, axios, semantic-ui</li>
+                </ul>
+                <ul class="my-works__project-tested-list">
+                  <li class="my-works__project-tested-item">Google Chrome 83</li>
+                  <li class="my-works__project-tested-item">Interner Explorer 11 </li>
+                  <li class="my-works__project-tested-item">Microsoft Edge 83 </li>
+                  <li class="my-works__project-tested-item">Safari 10</li>
+                  <li class="my-works__project-tested-item">Firefox 77</li>
+                  <li class="my-works__project-tested-item">Lighthouse 5.7.1 </li>
+                </ul>
+                <div class="my-works__project-actions"><a class="works__project-on-website button primary-button" href="https://sergeykuzin.github.io/portfolio/sedona/index.html" target="_blank">Go to website</a><a class="my-works__project-on-github button secondary-button" href="https://github.com/sergeykuzin/sedona---portfolio" target="_blank">Project on github</a></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer container">
+      <hr>
+      <div class="page-footer__left"><span>&copy; 2020 Sergey Kuzin</span></div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
